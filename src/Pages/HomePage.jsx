@@ -1,5 +1,6 @@
 import Header from "../components/Header/Header";
 import Footer  from "../components/Footer/Footer";
+import { Link } from "react-router-dom";
 //import "../styles/SharedPageLayout.css"; // <-- Import the new shared CSS file
 // import "../styles/HomePage.css" // <-- If you have page-specific styles, import it AFTER the shared one
 
@@ -17,7 +18,7 @@ const HomePage = () => {
                         <div className="hero-overlay-text">
                             <h1>Welcome to Vivekanand College!</h1>
                             <p id="para">Your journey to excellence starts here.</p>
-                            <a className="btn hero-btn" href="/admission">Apply Now!</a>
+                            <Link className="btn hero-btn" to="/admission">Apply Now!</Link>
                         </div>
                     </div>
 
