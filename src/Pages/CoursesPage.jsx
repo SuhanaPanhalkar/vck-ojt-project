@@ -22,9 +22,8 @@ const CoursesPage = () => {
                         <hr />
                         {/* It's good practice to add a "controls" attribute to videos for user interaction */}
                         <div className="video-container"> {/* Wrapper for responsive video sizing */}
-                            <video src="../Videos/college-tour.mp4" width="900" controls className="course-page-video"/>
+                            <video src="..\Video\college-tour.mp4" width="900" controls className="course-page-video"/>
                         </div>
-
                         <h2>Undergraduate Programs (UG)</h2><hr />
                         <ul type="square">
                             <li> <b>Bachelor of Science (B.Sc.) </b></li>
