@@ -1,5 +1,5 @@
-import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
+import Header from "../components/Header/Header";
 //import "../styles/SharedPageLayout.css"; // Don't forget to import the shared CSS!
 // import "../styles/ContactPage.css"; // Import this if you have page-specific overrides
 
